@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/btn-mobile.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <script defer src="./js/script.js"></script>
+
+  <title>FlexBlog</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__info">
+      <ul class="info__itens container">
+        <li>Seg / Sex - 08:00 às 18:00</li>
+        <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
+        <li><a href="https://www.google.com.br/maps" target="_blank">Av. Ali Perto, 330, Botafogo - RJ</a></li>
+      </ul>
+    </div>
+    <nav id="nav-mobile" class=" header__nav">
+      <div class="nav__itens container">
+        <div class="nav__logo">
+          <h1><a href="#">FlexBlog</a></h1>
+        </div>
+        <ul class="nav__menu">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Preço</a></li>
+          <li><a href="#">Qualidade</a></li>
+        </ul>
+        <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="nav__menu" aria-expanded="false">
+          <span id="menu-hamburguer"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <h1 class="main__title">Novos valores e Propriedades de CSS</h1>
+    <section class="main__content">
+      <div class="content__info">
+        <h1>Sobre</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam dignissimos sunt nemo aliquid esse id fuga, odio maxime aperiam nesciunt ratione? Velit aperiam, distinctio obcaecati sit ut nostrum et cupiditate?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa ut cum necessitatibus! Culpa incidunt enim ullam, tempora at praesentium sint officia dicta minima tenetur nesciunt sit laborum cum aliquam facere.</p>
+      </div>
+      <div class="content__img">
+        <figure>
+          <img src="./img/sobre1.jpg" alt="Mulher mexendo no tablet">
+        </figure>
+        <figure>
+          <img src="./img/sobre2.jpg" alt="Pessoa pintando algo">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <section class="products container">
+    <h1>Produtos</h1>
+    <div class="products__info">
+      <ul>
+        <li>
+          <h2 class="purple">Purple</h2>
+          <img src="./img/produtos1.jpg" alt="Primeiro produto">
+        </li>
+        <li>
+          <h2 class="pink">Pink</h2>
+          <img src="./img/produtos2.jpg" alt="Segundo produto">
+        </li>
+        <li>
+          <h2 class="blue">Blue</h2>
+          <img src="./img/produtos3.jpg" alt="Terceiro produto">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="prices">
+    <div class="price__box">
+      <h2>Cobre</h2>
+      <span><sup>R$</sup>19</span>
+      <ul class="box__list">
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <a class="box__btn" href="#">Comprar</a>
+    </div>
+    <div class="price__box">
+      <h2>Prata</h2>
+      <span><sup>R$</sup>39</span>
+      <ul class="box__list">
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Compra Exclusiva</li>
+      </ul>
+      <a class="box__btn" href="#">Comprar</a>
+    </div>
+    <div class="price__box">
+      <h2>Ouro</h2>
+      <span><sup>R$</sup>79</span>
+      <ul class="box__list">
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restrito</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Compra Exclusiva</li>
+        <li>Download dos Itens</li>
+      </ul>
+      <a class="box__btn" href="#">Comprar</a>
+    </div>
+  </section>
+
+  <section class="quality container">
+    <ul class="quality__list">
+      <li>
+        <h2>Inteligente</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa excepturi quos inventore odio, consequuntur.</p>
+      </li>
+      <li>
+        <h2>Compacto</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque harum, nostrum dolor, placeat nisi dolorum, ad veniam voluptatem corrupti.</p>
+      </li>
+      <li>
+        <h2>Econômico</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa excepturi quos inventore odio, consequuntur.</p>
+      </li>
+      <li>
+        <h2>Transparente</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa excepturi quos inventore odio, consequuntur.</p>
+      </li>
+      <li>
+        <h2>Opaco</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque harum, nostrum dolor, placeat nisi dolorum, ad veniam voluptatem corrupti.</p>
+      </li>
+      <li>
+        <h2>Sustentável</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa excepturi quos inventore odio, consequuntur.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter__itens container">
+      <div class="newsletter__title">
+        <h1>Newsletter</h1>
+        <p>assine e fique por dentro das novidades</p>
+      </div>
+      <form class="newsletter__form" action="#">
+        <input type="text" placeholder="Seu e-mail">
+        <button type="submit">Assinar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>FlexBlog © Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>

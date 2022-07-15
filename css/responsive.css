@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+  .prices {
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+  }
+  .newsletter__form input {
+    width: 250px;
+    height: 80px;
+  }
+  .newsletter__form button {
+    width: 150px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 820px) {
+  .products h1 {
+    text-align: center;
+  }
+  .products__info ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .quality__list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .quality__list li {
+    margin-bottom: 20px;
+  }
+  .quality__list li:nth-of-type(1n + 1) h2::before {
+    background: #ae81ff;
+  }
+
+  .quality__list li:nth-of-type(1n + 3) h2::before {
+    background: #f9265e;
+  }
+
+  .quality__list li:nth-of-type(1n + 5) h2::before {
+    background: #61cedf;
+  }
+}
+
+@media (max-width: 760px) {
+  .main__title {
+    text-align: center;
+    max-width: 23ch;
+  }
+  .main__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content__info h1 {
+    text-align: center;
+  }
+  .content__info p {
+    text-align: center;
+    max-width: 60ch;
+  }
+  .newsletter__itens {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .newsletter__title h1 {
+    text-align: center;
+  }
+  .newsletter__title p {
+    max-width: 40ch;
+  }
+}
+
+@media (max-width: 660px) {
+  .info__itens li {
+    font-size: 0.8rem;
+  }
+  .quality__list {
+    grid-template-columns: 1fr;
+  }
+  .quality__list li h2,
+  .quality__list li p {
+    text-align: center;
+    max-width: 50ch;
+  }
+}
+
+@media (max-width: 520px) {
+  .info__itens {
+    display: none;
+  }
+  .newsletter__form input {
+    width: 250px;
+    height: 60px;
+  }
+  .newsletter__form button {
+    width: 150px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .prices {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .newsletter__form {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .newsletter__form button {
+    width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .prices {
+    padding: 10px;
+  }
+}
